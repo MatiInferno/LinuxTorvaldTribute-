@@ -1,0 +1,102 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#main{
+  color:black;
+  line-height: 2.5rem;
+    background-size: 100% 100vh ;
+    height:100vh;
+  
+}
+@media only screen and (min-width: 1000px) {
+  #main {
+    color:black;
+      background-size: 100% 100vh;
+      height:100vh;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  body#main {
+    color:black;
+    line-height: 2.5rem;
+      background-size: 100% 100vh ;
+      height:100vh;
+  }
+}
+.container
+{
+  padding-right: 0px;
+  margin-right: 0%;
+  margin-left: 0px;
+}
+
+#img-caption{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#img-div
+{
+  width: 100%;
+
+}
+
+
+@media only screen and (min-width: 1000px) {
+.container
+{
+  padding-right: px;
+  margin-right: 20px;
+  margin-left: 0px;
+}
+  }
+
+blockquote{
+  font-style: italic;
+  line-height: 3rem;
+  word-spacing: 2px;
+  color: #aaa;
+  border-color: #aaa;
+}
+
+#title{
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+p{
+  font-size: 1.5rem;
+  word-spacing: 2px;
+}
+
+.btn:hover{
+  background-color: #fff;
+  color: black;
+  border: none;
+  border: black 1px solid;
+}
+
+.btn{
+  text-transform: uppercase;
+  border-radius: 0;
+  color: #fff;
+  background: none;
+  border: white 1px solid;
+  margin: 3rem 0;
+  font-weight: 500;
+}
+
+footer{
+  margin-bottom: 3rem;
+}
+
+footer a{
+  color: rebeccapurple;
+}
+
+footer a:hover{
+  color: rgb(3, 1, 27);
+  text-decoration: none;
+}
